@@ -25,9 +25,9 @@ spec:
               protocol: TCP
           livenessProbe:
             httpGet:
-              path: /
+              path: "{{ .Values.image.probeURL | default "/" }}"
               port: http
           readinessProbe:
             httpGet:
-              path: /
+              path: "{{ .Values.image.probeURL | default "/" }}"
               port: http
