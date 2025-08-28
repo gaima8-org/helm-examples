@@ -1,6 +1,6 @@
 # Helm Example Repository
 
-Ahoy world!  I'm a Helm repository for example charts.
+Ahoyhoy world!  I'm a Helm repository for example charts.
 
 ## Get started
 
@@ -13,5 +13,5 @@ helm repo add examples https://helm.github.io/examples
 Install an example.
 
 ```
-helm install ahoy examples/hello-world
+helm install ahoyhoy examples/hello-world
 ```
