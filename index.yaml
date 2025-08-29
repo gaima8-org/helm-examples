@@ -3,6 +3,20 @@ entries:
   hello-world:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2025-08-29T09:38:46.156760668Z"
+    description: A Helm chart for Kubernetes
+    digest: 3d451c0e4fb2d234ba6ba8c7d9370d08024aaf9821f3b5c9ba6cefba4a5df0d4
+    maintainers:
+    - email: grp-gcp-cloud-platform-engineering-rw@i6.io
+      name: Operations
+      url: https://i6.com
+    name: hello-world
+    type: application
+    urls:
+    - hello-world-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2025-08-28T15:16:22.22123043Z"
     description: A Helm chart for Kubernetes
     digest: 672a6ce1733248bc862b471e7008eb1ccb592afa8a86a35ea49c4d3bbe7b2b8f
@@ -11,4 +25,4 @@ entries:
     urls:
     - https://github.com/gaima8-org/helm-examples/releases/download/hello-world-0.1.0/hello-world-0.1.0.tgz
     version: 0.1.0
-generated: "2025-08-28T15:16:22.221236992Z"
+generated: "2025-08-29T09:38:46.15676743Z"
